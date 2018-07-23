@@ -1,0 +1,43 @@
+.btn.student-btn {
+  width: 100%;
+  border: 1px solid #ccc
+}
+
+.student-section {
+  margin-top: 15px;
+}
+
+.student-hint {
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  padding: 50px;
+  color:#666;
+}
+
+.student-label__required:before {
+  content: '*';
+  color: #cb5e5e;
+}
+.status {
+  color: #108bcd;
+}
+.warn-status {
+  color: #cb5e5e;
+}
+.student-field.student-field__invalid {
+  border: 1px solid #cb5e5e;
+}
+@media(min-width: 991px) {
+  .btn.student-btn {
+    max-width: 120px;
+    margin-left: 10px;
+  }
+  .form-control.student-field {
+    max-width: 273px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .student-section {
+    display: inline-block;
+  }
+}
